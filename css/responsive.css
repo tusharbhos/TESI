@@ -156,7 +156,7 @@
     z-index:12;
   }        
   .main-menu .navbar-header .navbar-toggle {
-      border: 2px solid #fdc716;
+      border: 2px solid #ff8c06;
       display: inline-block;
       float: none;
       margin: 0;
@@ -167,7 +167,7 @@
       border-radius: 0;
   }  
   .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: #fdc716 none repeat scroll 0 0;
+    background: #ff8c06 none repeat scroll 0 0;
     font-weight: 700;
   }  
   .main-menu .mobile-menu {
@@ -235,7 +235,7 @@
     line-height:22px;
     color:#ffffff;
     margin: 0;
-    background: #fdc716;
+    background: #ff8c06;
     text-align:left;
     display: block;
   } 
@@ -267,7 +267,7 @@
 
 
   .nav_side_content .search_option>button {
-    color: #fdc716;
+    color: #ff8c06;
   }
 
 
