@@ -48,8 +48,9 @@ function revolutionSliderActiver () {
             navigation: {
                 arrows:{enable:true} 
             }, 
-            gridwidth: [1200],
-            gridheight: [500, 500, 500, 500]
+            responsiveLevels: [1240, 1024, 778, 480],
+            gridwidth: [1200, 1024, 778, 480],
+            gridheight: [500, 500, 540, 560]
         });
     };
 }
@@ -70,6 +71,7 @@ function mainmenu() {
         //Dropdown Button
         $('.main-menu .mobile-menu li.dropdown .dropdown-btn').on('click', function() {
             $(this).prev('ul').slideToggle(500);
+            $(this).toggleClass('open');
         });
     }
 

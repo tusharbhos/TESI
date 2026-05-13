@@ -14,6 +14,54 @@
   }      
 }
 @media only screen and (max-width: 767px){
+  .about-us .fact-counter {
+    margin-top: 24px;
+  }
+  .about-us .fact-counter ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .about-us .fact-counter ul li.single-fact-counter {
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0;
+  }
+  .about-us .fact-counter ul li.single-fact-counter .icon-holder {
+    display: none;
+  }
+  .about-us .fact-counter ul li.single-fact-counter .timer {
+    font-size: 22px;
+    line-height: 1;
+  }
+  .about-us .fact-counter ul li.single-fact-counter i.fa-plus {
+    font-size: 12px;
+    top: -2px;
+  }
+  .about-us .fact-counter ul li.single-fact-counter h3 {
+    font-size: 10px;
+    line-height: 1.25;
+    margin-top: 6px;
+  }
+  .rev_slider_wrapper,
+  .rev_slider_wrapper .rev_slider,
+  .rev_slider_wrapper .tp-fullwidth-forcer {
+    min-height: 320px !important;
+  }
+  .our-services .single-our-service {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .team .team-member,
+  .team-area .single-team {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
   .product-category-nav {
     display: block;
   }
