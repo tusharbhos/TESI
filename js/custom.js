@@ -509,6 +509,34 @@ function awardsCarousel () {
     }
 }
 
+function productSingleInteractions () {
+    if ($('.product-single-slider').length) {
+        $('.product-single-slider').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 700,
+            items: 1
+        });
+    }
+
+    if ($('.product-variant-tabs').length) {
+        $('.product-variant-tabs a').on('click', function(e) {
+            var target = $($(this).attr('href'));
+            if (!target.length) return;
+            e.preventDefault();
+            $('.product-variant-tabs a').removeClass('active');
+            $(this).addClass('active');
+            $('html, body').animate({
+                scrollTop: target.offset().top - 80
+            }, 700);
+        });
+    }
+}
+
 function productTabs () {
     var productData = {
         'product-rigid-trucks.html': {
@@ -725,7 +753,7 @@ jQuery(document).on('ready', function () {
         teamCarosule();
         projectcarousel();
         awardsCarousel();
-        productTabs();
+        productSingleInteractions();
         imgpopup();
  
     })(jQuery);
