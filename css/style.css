@@ -3024,6 +3024,26 @@ margin-bottom: 50px;
   margin: 0 0 18px;
 }
 
+.detail-section {
+  border: 1px solid #ddd;
+  margin-bottom: 35px;
+  padding: 30px;
+}
+
+.detail-section h3 {
+  border-bottom: 2px solid #ff8c06;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.detail-section p {
+  color: #555;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 22px;
+  text-align: justify;
+}
+
 .product-spec-table {
   width: 100%;
   margin-bottom: 18px;
@@ -3042,6 +3062,28 @@ margin-bottom: 50px;
   background: #f7f7f7;
   color: #292929;
   font-weight: 600;
+}
+
+.spec-table {
+  margin-bottom: 0;
+}
+
+.spec-table th {
+  width: 30%;
+}
+
+.spec-table td {
+  width: 70%;
+}
+
+.suspension-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.suspension-list li {
+  color: #555;
+  line-height: 26px;
 }
 
 .product-notes {

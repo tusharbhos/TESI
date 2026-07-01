@@ -108,6 +108,17 @@
     overflow-x: auto;
     white-space: nowrap;
   }
+  .detail-section {
+    padding: 20px;
+  }
+  .detail-section p {
+    text-align: left;
+  }
+  .spec-table th,
+  .spec-table td {
+    min-width: 190px;
+    white-space: normal;
+  }
   .product-list-card {
     padding: 22px 48px 22px 20px;
   }
