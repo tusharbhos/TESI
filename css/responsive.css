@@ -270,7 +270,7 @@
     display:block;
     text-align: left;
     width:100%;
-    padding: 14px 0px 13px;
+    padding: 0px 0px 4px;
     right:0px;
     z-index:12;
   }        
@@ -278,7 +278,7 @@
       border: 2px solid #ff8c06;
       display: inline-block;
       float: right;
-      margin: 0;
+      margin: 10px;
       margin-left: 10px;
       z-index: 7;
       width: 45px;
