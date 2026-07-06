@@ -1021,6 +1021,11 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     Rev Slider Wrapper style
 =============================================
 ***/
+.rev_slider_wrapper .tp-bgimg {
+  transform: scaleX(-1) !important;
+  transform-origin: center center;
+}
+
 .rev_slider_wrapper .slide-content-box h1 {
   color: #fff;
   font-size: 60px;

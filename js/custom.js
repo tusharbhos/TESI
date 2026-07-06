@@ -47,7 +47,7 @@ function revolutionSliderActiver() {
       },
       responsiveLevels: [1240, 1024, 778, 480],
       gridwidth: [1200, 1024, 778, 480],
-      gridheight: [500, 500, 540, 560],
+      gridheight: [600, 580, 540, 560],
     });
   }
 }
