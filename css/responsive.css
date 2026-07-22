@@ -46,8 +46,63 @@
   }
   .rev_slider_wrapper,
   .rev_slider_wrapper .rev_slider,
+  .rev_slider_wrapper .forcefullwidth_wrapper_tp_banner,
+  .rev_slider_wrapper .tp-revslider-mainul,
+  .rev_slider_wrapper .tp-revslider-slidesli,
+  .rev_slider_wrapper .slotholder,
+  .rev_slider_wrapper .tp-parallax-wrap,
   .rev_slider_wrapper .tp-fullwidth-forcer {
-    min-height: 320px !important;
+    height: 420px !important;
+    min-height: 420px !important;
+    max-height: 420px !important;
+  }
+  .rev_slider_wrapper .tp-bgimg {
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  .rev_slider_wrapper .hero-copy-caption {
+    width: calc(100vw - 24px) !important;
+    max-width: calc(100vw - 24px) !important;
+  }
+  .rev_slider_wrapper .slide-content-box {
+    max-width: calc(100vw - 24px);
+  }
+  .rev_slider_wrapper .slide-content-box h1 {
+    font-size: 30px !important;
+    line-height: 36px !important;
+    margin-bottom: 12px !important;
+    white-space: normal !important;
+  }
+  .rev_slider_wrapper .slide-content-box p {
+    font-size: 15px !important;
+    line-height: 21px !important;
+    max-width: calc(100vw - 24px);
+    white-space: normal !important;
+  }
+  .rev_slider_wrapper .slide-content-box p br {
+    display: none;
+  }
+  .rev_slider_wrapper .slide-content-box .button a,
+  .rev_slider_wrapper .slide-content-box .button a.bg-clr1 {
+    box-sizing: border-box;
+    width: 136px !important;
+    min-width: 136px;
+    padding: 11px 16px !important;
+    line-height: 22px !important;
+    text-align: center;
+  }
+  .rev_slider_wrapper .hero-button-caption {
+    width: 136px !important;
+    max-width: 136px !important;
+  }
+  .rev_slider_wrapper .tp-parallax-wrap:has(.hero-button-caption) {
+    top: 322px !important;
+  }
+  .rev_slider_wrapper .tp-parallax-wrap:has(.hero-button-primary) {
+    left: 16px !important;
+  }
+  .rev_slider_wrapper .tp-parallax-wrap:has(.hero-button-secondary) {
+    left: 166px !important;
   }
   .our-services .single-our-service {
     max-width: 360px;
@@ -123,6 +178,26 @@
     padding: 22px 48px 22px 20px;
   }
 }
+@media only screen and (max-width: 340px){
+  .rev_slider_wrapper .slide-content-box .button a,
+  .rev_slider_wrapper .slide-content-box .button a.bg-clr1,
+  .rev_slider_wrapper .hero-button-caption {
+    width: 126px !important;
+    min-width: 126px;
+    max-width: 126px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .rev_slider_wrapper .tp-parallax-wrap:has(.hero-button-primary) {
+    left: 14px !important;
+  }
+  .rev_slider_wrapper .tp-parallax-wrap:has(.hero-button-secondary) {
+    left: 154px !important;
+  }
+  .rev_slider_wrapper .tp-parallax-wrap:has(.hero-button-caption) {
+    top: 324px !important;
+  }
+}
 @media only screen and (max-width: 991px){
   .header-area {
     padding: 25px 0 10px;
@@ -158,6 +233,11 @@
   }
   .footer-col {
     padding-bottom: 20px;
+  }
+  .footer-about-text {
+    max-width: none;
+    margin-top: 18px;
+    margin-bottom: 0;
   }
   .footer-main .post-column .post {
     max-width: 420px;
@@ -1091,6 +1171,34 @@ float: left;
   padding-bottom: 100px;
   padding-top: 100px;
 } 
+.breadcrumb-area1 {
+  align-items: center;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+.breadcrumb-area1:before {
+  background: rgba(0, 0, 0, 0.12);
+}
+.breadcrumb-area1 .container {
+  width: 100%;
+}
+.breadcrumb-area1 h1 {
+  font-size: 22px;
+  line-height: 1.15;
+  margin: 0 auto;
+  max-width: 230px;
+  text-align: center;
+  word-break: normal;
+}
 .breadcrumb-botton-area {
     padding: 18px 0 14px;
 }    
@@ -1437,6 +1545,14 @@ float: left;
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (max-width: 450px) {
+.breadcrumb-area1 {
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+.breadcrumb-area1 h1 {
+  font-size: 20px;
+  max-width: 210px;
+}
 .logo1{
   height: 45px;
   width:100px;

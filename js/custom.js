@@ -42,12 +42,22 @@ function revolutionSliderActiver() {
 
       hideTimerBar: "off",
       onHoverStop: "off",
+      autoHeight: "off",
+      minHeight: 420,
+      fallbacks: {
+        simplifyAll: "on",
+        disableFocusListener: true,
+      },
       navigation: {
         arrows: { enable: true },
+        touch: {
+          touchenabled: "on",
+          swipe_direction: "horizontal",
+        },
       },
       responsiveLevels: [1240, 1024, 778, 480],
       gridwidth: [1200, 1024, 778, 480],
-      gridheight: [600, 580, 540, 560],
+      gridheight: [600, 580, 500, 420],
     });
   }
 }

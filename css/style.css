@@ -763,6 +763,12 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   text-transform: uppercase;
   transition: all 500ms ease 0s;
 }
+@media only screen and (min-width: 992px) {
+  .main-menu .navigation li a {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+}
 .main-menu.style-2 .navigation li a {
   color: #222;
   padding: 35px 0;
@@ -1085,6 +1091,10 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 .footer-col {
   margin-bottom: 40px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 
@@ -1097,7 +1107,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 .footer-col a,
 .footer-col p,
 .footer-col span {
-    color: #9d9d9d;
+    color: #ffffff;
 }
 
 .footer-col a:hover {
@@ -1107,7 +1117,14 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
     padding-left: 20px;
 }
 
-
+.footer-about-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 22px 0 0;
+    max-width: 360px;
+}
 
 .footer-words {
     font-weight: 400;
@@ -1117,7 +1134,7 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 }
 
 .footer-social {
-    padding-top: 18px;
+    padding-top: 16px;
 }
 
 .footer-social li:not(:first-of-type) {
@@ -1711,6 +1728,13 @@ padding: 15px 0 40px;
   padding: 190px 0 170px;
   position: relative;
 }
+.breadcrumb-area1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 190px 0 170px;
+  position: relative;
+}
 
 .breadcrumb-area:before {
     content: '';
@@ -1723,7 +1747,26 @@ padding: 15px 0 40px;
     z-index: 0;
 }
 
+.breadcrumb-area1:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.42);
+    z-index: 0;
+}
+
 .breadcrumb-area h1 {
+    color: #ffffff;
+    position: relative;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-area1 h1 {
     color: #ffffff;
     position: relative;
     font-weight: 600;
@@ -1830,6 +1873,48 @@ margin-bottom: 50px;
 }
 .contact-form-area .form-right-box .social-links li a:hover i{
     color: #ff8c06;
+}
+
+/***
+=============================================
+    Career Page style
+=============================================
+***/
+.career-area .section-title {
+  margin-bottom: 42px;
+}
+.career-feature-row {
+  margin-bottom: 20px;
+}
+.career-feature-box {
+  background: #f7f7f7;
+  border-left: 4px solid #ff8c06;
+  min-height: 245px;
+  padding: 34px 28px 30px;
+  margin-bottom: 30px;
+  transition: all 500ms ease;
+}
+.career-feature-box:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+.career-feature-box span {
+  color: #ff8c06;
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+.career-feature-box h4 {
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.career-feature-box p {
+  color: #777;
+  margin: 0;
+}
+.career-form-area .section-title {
+  margin-bottom: 30px;
 }
 
 .footer-contact-info{
