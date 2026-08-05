@@ -1722,18 +1722,30 @@ padding: 15px 0 40px;
 =============================================
 ***/
 .breadcrumb-area {
+  align-items: center;
+  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 190px 0 170px;
+  aspect-ratio: 24 / 5;
+  display: flex;
+  height: auto;
+  padding: 0;
   position: relative;
+  width: 100%;
 }
 .breadcrumb-area1 {
+  align-items: center;
+  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 190px 0 170px;
+  aspect-ratio: 24 / 5;
+  display: flex;
+  height: auto;
+  padding: 0;
   position: relative;
+  width: 100%;
 }
 
 .breadcrumb-area:before {
@@ -1772,6 +1784,22 @@ padding: 15px 0 40px;
     font-weight: 600;
     line-height: 40px;
     text-transform: uppercase;
+}
+
+.rigid-mobile-breadcrumb-slider {
+    display: none;
+}
+
+.semi-mobile-breadcrumb-slider {
+    display: none;
+}
+
+.special-mobile-breadcrumb-slider {
+    display: none;
+}
+
+.defense-mobile-breadcrumb-slider {
+    display: none;
 }
 
 
