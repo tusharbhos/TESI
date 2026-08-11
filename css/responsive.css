@@ -141,7 +141,7 @@
     grid-template-columns: 1fr;
   }
   .product-sub-card .img-box img {
-    height: 220px;
+    height: 260px;
   }
   .product-variant-tabs {
     justify-content: flex-start;
@@ -155,7 +155,7 @@
     padding: 10px 16px;
   }
   .product-single-slider .item img {
-    height: 240px;
+    height: 300px;
   }
   .product-single-copy h2 {
     font-size: 28px;

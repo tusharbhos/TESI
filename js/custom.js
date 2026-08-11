@@ -352,11 +352,12 @@ if ($(".team-carousel").length) {
 if ($(".brand-carousel").length) {
   $(".brand-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout: 1800,
     loop: true,
     autoplayHoverPause: true,
     pagination: false,
-    dotsSpeed: 1000,
-    smartSpeed: 1500,
+    dotsSpeed: 600,
+    smartSpeed: 600,
     margin: 30,
     nav: true,
     items: 6,
@@ -435,7 +436,7 @@ function teamCarosule() {
           items: 2,
         },
         1000: {
-          items: 4,
+          items: 3,
         },
       },
     });
@@ -468,7 +469,7 @@ function projectcarousel() {
           items: 3,
         },
         1000: {
-          items: 4,
+          items: 3,
         },
       },
     });
